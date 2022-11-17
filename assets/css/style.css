@@ -19,7 +19,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
+  background: #040404 url("../img/nodir.png") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -422,7 +422,10 @@ section .container {
 .about-me .content ul strong {
   margin-right: 10px;
 }
-
+.img__about{
+  height: 380px;
+  border-radius: 25%;
+}
 .about-me .content ul i {
   font-size: 16px;
   margin-right: 5px;
@@ -570,17 +573,33 @@ section .container {
   margin: 10px 0 5px 45px;
   color: #fff;
 }
-
+.text_about{
+  margin-top: 50px;
+  font-size: 20px;
+  color: #15bb62;
+}
 .testimonials .testimonial-item h4 {
   font-size: 14px;
   color: #999;
   margin: 0 0 0 45px;
 }
 
+.fed div{
+  width: 100%;
+}
+.fed p{
+   max-width: 500px;
+  text-align: center;
+  margin: 0 auto;
+}
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
   color: rgba(255, 255, 255, 0.25);
   font-size: 26px;
+}
+.img_port1{
+  height: 450px;
+  width: 400px;
 }
 
 .testimonials .testimonial-item .quote-icon-left {
@@ -610,6 +629,23 @@ section .container {
 .testimonials .swiper-pagination {
   margin-top: 20px;
   position: relative;
+}
+.potect__link{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.protect__context{
+  background-color: #15bb62;
+  padding: 14px 30px;
+  align-items: center;
+  margin: 0 auto;
+  width: 180px;
+  border-radius: 5px;
+}
+.protect__context:hover{
+background: #000;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet {
